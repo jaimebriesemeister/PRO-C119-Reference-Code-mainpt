@@ -1,0 +1,27 @@
+{"intents": [
+    {"tag": "saudação",
+     "patterns": ["Olá!!", "Como você está?", "Tem alguém aí?",
+                    "Oi","Oie", "Alô"],
+     "responses": ["Olá!!, obrigado por perguntar.", "Que bom ver você novamente.", 
+                    "Olá, como posso ajudar?"]
+    },
+    {"tag": "despedida",
+     "patterns": ["Tchau", "Nos vemos depois", "Adeus", "Foi bom falar com você, tchau", 
+                  "Até a próxima"],
+     "responses": ["Nos vemos!", "Tenha um ótimo dia", "Tchau! Volte logo.",
+                   "Tenha um ótimo dia"]             
+    },
+    {"tag": "agradecimento",
+      "patterns": ["Obrigado!", "Muito obrigado.", "Isso foi útil", "Maravilha, obrigado!", 
+                   "Obrigado por me ajudar!"],
+      "responses": ["Fico feliz em ajudar!", "Sempre que precisar", "Foi um prazer."]
+     },
+     {"tag": "sem_resposta",
+      "patterns": [""],
+      "responses": ["Desculpe, não consegui entender você.", "Por favor dê-me mais informações.", 
+                    "Acho que não entendi."]
+     }
+  ]
+}
+
+    
